@@ -7,6 +7,8 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
+// O Spring é encarregado de utilizar os recursos dessa classe sempre que acontecer uma exceção em algum dos Controllers
+
 @RestControllerAdvice
 public class TratadorDeErros {
 
